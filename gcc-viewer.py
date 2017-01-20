@@ -9,7 +9,7 @@ import glob
 import os
 
 import gtk
-import xdot
+import xdot # On Fedora, package = "python-xdot"
 
 class Window(gtk.Window):
     def __init__(self, output_dir, base_filename):
