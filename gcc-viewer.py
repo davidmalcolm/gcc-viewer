@@ -32,6 +32,8 @@ class Window(gtk.Window):
         self.idx = 0
         self.update_idx()
 
+        self.maximize()
+
         self.show_all()
 
     def on_key_press_event(self, widget, event):
