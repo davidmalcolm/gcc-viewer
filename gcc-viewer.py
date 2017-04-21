@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # A pygtk program for viewing GCC .dot dumps
 # To output .dot files from gcc, use:
-#   -fdump-tree-all-graph -fdump-rtl-all-graph
+#   -fdump-tree-all-graph -fdump-ipa-all-graph -fdump-rtl-all-graph
 # This program provides an interface for easily going
 # forwards and backwards through the dumps, so that you
 # can see where a particular change happened.
